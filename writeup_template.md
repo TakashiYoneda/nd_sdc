@@ -26,11 +26,17 @@ The goals / steps of this project are the following:
 My pipeline consisted of 5 steps. 
 
 step 1: Convert the images to grayscale and blur the image
+
 step 2: Get edges of the image
+
 step 3: Mask the image
+
 step 4: Obtain candidates for lines
+
 step 5: Separate lines to left and right
+
 step 6: Filter candidates by tangent and intercept
+
 step 7: Obtain line with consideration of time frame
 
 
@@ -39,9 +45,13 @@ step 7: Obtain line with consideration of time frame
 
 
 Shortcoming would be mask area.
+
 For picture, I have to set a little bit bigger area than video.
+
 In video, there are a lot of noise from shadow, road color, tyer trace, car front pannel,,,
+
 In order to avoid to catch these noise, I had to set smaller mask area.
+
 I would like to know more efficient and robust way to detect lane line.
 
 
